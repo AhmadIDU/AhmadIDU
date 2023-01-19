@@ -7,10 +7,10 @@ body{
     font-size: 15px;
     line-height: 1.5;
     box-sizing: border-box;
-    margin: 0;overflow-x: hidden;
+    margin: 0;
+    overflow-x: hidden;
 }
 a{
-
     color: rgba(34, 54, 69, 7) !important;
     font-weight: 500 !important;
 }
@@ -283,7 +283,7 @@ span{
 
 
 .details{
-    background-color: #a0a385;
+    background-color: #daefc3;
     margin-top: 20px ;
     padding: 20px 40px ;
     border-radius: 4px;
@@ -292,7 +292,8 @@ span{
 
 .pr-bar {
     border-radius: 30px;
-    background-color: #f49b0b !important;
+    background-color: #ffffffbd;
+    background-color: #4ecd47 !important;
     height: 20px !important;
 }
 .pr-shape{
