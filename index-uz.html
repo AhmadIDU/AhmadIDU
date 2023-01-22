@@ -140,7 +140,7 @@
               </div>
               <div class="col-md-6">
                 <div class="px-lg-3">
-                  <h4 >Qo'shimcha kodlash</h4>
+                  <h4 class="qoshimcha">Qo'shimcha kodlash</h4>
                   <div class="progress-wrapper">
                     <span class="caption">Java</span>
                     <div class="progress pr-shape">
@@ -228,13 +228,15 @@
               <div class="form-row">
                 <div class="col-12 mt-3 ">
                   <input class="form-control" type="text" name="Name" id="name" placeholder="Your Name">
+                  <br>
+                   <input class="form-control" type="text" name="surName" id="surName" placeholder="SurName">
                 </div>
                 <div class="row">
                   <div class="col-6 mt-3">
                     <input class="form-control" type="text" name="Email" id="email" placeholder="Email Address">
                   </div>
                   <div class="col-6 mt-3">
-                    <input class="form-control" type="tel" id="phone" name="phone" placeholder="+998-(99)-888-88-88">
+                    <input class="form-control" type="tel" id="phone" name="phone">
                   </div>
                 </div>
                 <div class="col-12 mt-3 ">
@@ -268,7 +270,7 @@
             <p>Meni kontactlarim</p>
             <hr class="divider">
             <ul class="list-unstyled">
-              <li>  <a href="https://instagram.com/ahamd___716" ><i class="fa-brands fa-instagram-square">  Instagram  </i></a></li>
+              <li>  <a href="https://instagram.com/ahmadilla_uz" ><i class="fa-brands fa-instagram-square">  Instagram  </i></a></li>
               <li>  <a href="https://www.facebook.com/Ahmad Allanazarov" ><i class="fa-brands fa-facebook-square">  Facebook </i></a></li>
               <li>  <a href="https://t.me/student_of_IDU"><i class="fa-brands fa-telegram"> Telegram </i></a></li>
 
@@ -301,5 +303,14 @@
      <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="/portfolio/js/js.js"></script>
      <script src="./Jquary.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js"></script>
+     <script>
+    $(document).ready(function(){
+        // A static mask
+        $("#phone").inputmask("99-9999999");
+        // Mask which specifies options
+        $("#phone").inputmask({"mask": "+998-(99)-999-99-99"});
+    });
+</script>
 </body>
 </html>
