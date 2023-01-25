@@ -15,7 +15,7 @@ a{
     font-weight: 500 !important;
 }
 a:hover{
-    color: #e7f300 !important;
+    color: #d6e104 !important;
 }
 .page-home{
     width: 100%;
@@ -25,12 +25,12 @@ a:hover{
     background-position: center;
 }
 .my-name>h5{
-    color: rgb(224, 189, 16);
+    color: rgb(204, 172, 13);
     font-size: 45px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .my-name>h3{
-    color: rgb(224, 189, 16);
+    color: rgb(193, 162, 8);
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -62,7 +62,7 @@ a:hover{
 .navbar-toggler{
     width: 40px;
     height: 40px;
-    background-color: #d124ef !important ;
+    background-color: #be31d7 !important ;
     padding: 10px, 6px;
     border-radius: 4px solid white !important;
 
@@ -104,7 +104,7 @@ a:hover{
 .navbar-nav .btn{
     width: 50px;
     height: 50px;
-    background-color: #EF3724;
+    background-color: #ef503e;
     color: #fff;
     padding: .6rem .8rem;
     font-size: 1rem;
@@ -288,7 +288,9 @@ span{
     padding: 20px 40px ;
     border-radius: 4px;
 }
-
+.qoshimcha{
+    color: white;
+}
 
 .pr-bar {
     border-radius: 30px;
